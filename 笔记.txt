@@ -1,0 +1,37 @@
+pygame.Rect(x,y,width,height)   位置，尺寸
+
+pygame.display.set_mode() 初始化游戏显示窗口
+pygame.display.set_mode( (长度，高度 ) )
+
+
+
+pygame.image.load("图像路径") 加载图像数据
+blit(图像数据，（x，y）)
+pygame.display.update() 刷新屏幕内容显示图像
+
+
+事件event
+	监听用户操作
+	捕获用户当前时刻用户所作动作的事件列表
+	pygame.event.get()
+
+
+精灵和精灵组：
+	精灵：记录了图像数据image，记录了在屏幕上的位置rect
+	update():更新精灵位置
+	
+
+	精灵组：
+	记录所有精灵，操作所有精灵移动
+	1.update2.draw(screen)3.pygame.display.update()
+
+
+
+
+
+
+
+
+
+
+
